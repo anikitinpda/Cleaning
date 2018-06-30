@@ -19,7 +19,7 @@
   background:#fff !important;
 }
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(23, 203, 235, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url('../images/menu.svg');
 }
 
 /*header style*/
@@ -44,7 +44,7 @@
  padding: 3em;
 }
 .description h1{
- color:#F97300 ;
+ color:#0000FF ;
 }
 .description p{
  color:#666;
@@ -60,22 +60,46 @@
 
 /*Контакты*/
 .contact{
+  background-image: url('../images/uborka.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
  margin: 4em 0;
  padding: 1em;
  position: relative; 
+}  
+.contact .overlay{
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.79);
 }
 .contact h1{
- color:#F97300;
+ color:#0000FF;
  margin: 1em; 
 }
 .contact button{
- center;
+ centr;
 }
 .contact .card-title{
- color:#F97300;
+ color:#0000FF;
 }
 .contact .card-body{
  padding: 1em;
+}
+.contact .phone-btn{
+  background-image: url('../images/phone.svg');
+  padding: 0.75em;
+}
+.contact .mail-btn{
+  background-image: url('../images/mail.svg');
+  padding: 0.75em;
+}
+.contact .list-btn{
+  background-image: url('../images/list.svg');
+  padding: 0.75em;
 }
 
 
@@ -110,19 +134,23 @@
  line-height:2;
  color:#888;
 }
-/*Portfolio*/
-.portfolio{
+/*forma*/
+.form{
  margin: 4em 0;
  padding: 1em;
  position: relative; 
 }
-.portfolio h1{
- color:#F97300;
- margin: 1em; 
+..form h1{
+ color:#F97300 ;
 }
-.portfolio img{
- height: 15rem;
- width: 100%;
- margin: 1em;
+.form p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
 }
-
+.form button{
+ border:1px  solid #F97300;
+ background:#6A5ACD;
+ color:#fff;
+}

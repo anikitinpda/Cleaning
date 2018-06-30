@@ -42,10 +42,10 @@
           <h1>
              Добро пожаловать
             <p>
-              Тут какойто текст.
+              Написать текст приветствия
               
             </p>
-            <a href="tel:+1234567890"><button class="btn btn-outline-secondary btn-lg" >Позвонить</button></a>
+            <a class="nav-link" data-value="form" href="#"><button class="btn btn-outline-secondary btn-lg" >Заказать уборку</button></a>
           </h1>
         </div>
       </div>
@@ -53,7 +53,8 @@
 
     <!-- Контакты -->
     <div class="contact" id="contact">
-      <div class="container">
+      <div class="overlay"></div>
+      <div class="container text-center">
         <h1 class="text-center"> Контакты</h1>
         <div class="row">
           <div class="col-md-4 col-lg-4 col-sm-12">
@@ -61,11 +62,12 @@
               <div class="card-body">
                 <h4 class="card-title">Позвонить</h4>
                 <p class="card-text">
-                  Вы можете позвонить по номеру <a href="tel:+1234567890" class="card-link">+1234567890</a>
+                  Вы можете позвонить по номеру 
                 </p>
+                <p><a href="tel:+1234567890" class="card-link">+1234567890</a></p>
               </div>
               <div class="">
-                <a href="tel:+1234567890"><button class="btn btn-outline-secondary btn-lg" >Позвонить</button></a>
+                <a href="tel:+1234567890"><button class="phone-btn" ></button></a>
               </div>
             </div>
           </div>
@@ -74,25 +76,27 @@
               <div class="card-body">
                 <h4 class="card-title">Написать</h4>
                 <p class="card-text">
-                  Вы можете написать на почту <a href="mailto:1234567890@mail.ru" class="card-link">1234567890@mail.ru</a>
+                  Вы можете написать на почту 
                 </p>
+                <p><a href="mailto:1234567890@mail.ru" class="card-link">1234567890@mail.ru</a></p>
               </div>
               <div class="">
-                <a href="mailto:1234567890@mail.ru"><button class="btn btn-outline-secondary btn-lg" >Написать</button></a>
+                <a href="mailto:1234567890@mail.ru"><button class="mail-btn" ></button></a>
               </div>
             </div>
           </div>
           <div class="col-md-4 col-lg-4 col-sm-12">
-            <div class="form">
+            <div class="">
              <div class="card-body">
                 <h4 class="card-title">Оставить заявку</h4>
                 <p class="card-text">
-                  Оставьте заявку и мы Вам перезвоним.<br> Заполните форму обратной связи
-                  
+                  Оставьте заявку и мы Вам перезвоним.
                 </p>
+                <p><a href="" >Оставить заявку</a></p>
               </div>
               <div class="">
-                <a href=""><button class="btn btn-outline-secondary btn-lg" >Заполнить</button></a>
+                <a href=""><button class="list-btn" ></button></a>
+                
               </div>
             </div>
           </div>
@@ -192,6 +196,13 @@
         </div>
       </div>
     </div>
+    
+
+    <div class="form "  id="form">
+             <p><input type="text" value="Введите ваш номер телефона"></p>
+             <p><input type="text" value="Введите ваше имя"></p>
+             <button class="btn btn-outline-secondary btn-lg" >Оставить заявку</buttom>
+      </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
