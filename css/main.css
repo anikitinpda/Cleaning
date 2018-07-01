@@ -1,3 +1,8 @@
+body{
+ background:#F4F4F4;
+}
+
+
 .navbar{
  background:#6A5ACD;
 }
@@ -10,13 +15,13 @@
 }
 .nav-link:hover{
  background: #F4F4F4;
- color: #28E4F1;
+ color: #fff;
 }
 .navbar-collapse{
  justify-content: flex-end;
 }
 .navbar-toggler{
-  background:#fff !important;
+  background:#6A5ACD !important;
 }
 .navbar-toggler-icon {
   background-image: url('../images/menu.svg');
@@ -53,35 +58,25 @@
  line-height: 1.5;
 }
 .description button{
- border:1px  solid #F97300;
+ border:1px  solid #0000FF;
  background:#6A5ACD;
  color:#fff;
 }
 
 /*Контакты*/
 .contact{
-  background-image: url('../images/uborka.png');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+ background-image: url('../images/images8.jpeg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+
  margin: 4em 0;
  padding: 1em;
  position: relative; 
 }  
-.contact .overlay{
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(244, 244, 244, 0.79);
-}
 .contact h1{
  color:#0000FF;
  margin: 1em; 
-}
-.contact button{
- centr;
 }
 .contact .card-title{
  color:#0000FF;
@@ -94,8 +89,8 @@
   padding: 0.75em;
 }
 .contact .mail-btn{
-  background-image: url('../images/mail.svg');
-  padding: 0.75em;
+  background-image: url('../images/icons8.png');
+  padding: 1.3em;
 }
 .contact .list-btn{
   background-image: url('../images/list.svg');
@@ -109,7 +104,7 @@
  position: relative;
 }
 .about h1{
- color:#F97300;
+ color:#6A5ACD;
  margin: 1em;
 }
 .about img{
@@ -150,7 +145,6 @@
  line-height: 1.5;
 }
 .form button{
- border:1px  solid #F97300;
  background:#6A5ACD;
  color:#fff;
 }
