@@ -6,7 +6,8 @@ body{
 .navbar{
  background:#6A5ACD;
 }
-.nav-link , .navbar-brand{
+
+.nav-link, .navbar-brand{
  color: #E1F6F8;
  cursor: pointer;
 }
