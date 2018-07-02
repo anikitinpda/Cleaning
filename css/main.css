@@ -30,7 +30,7 @@ body{
 
 /*header style*/
 .header{
- background-image: url('../images/uborka.png');
+ background-image: url('../images/images8.jpeg');
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
@@ -66,11 +66,6 @@ body{
 
 /*Контакты*/
 .contact{
- background-image: url('../images/images8.jpeg');
- background-attachment: fixed;
- background-size: cover;
- background-position: center;
-
  margin: 4em 0;
  padding: 1em;
  position: relative; 
@@ -99,19 +94,41 @@ body{
 }
 
 
+.price{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.price h1{
+ color:#0000FF;
+ margin: 1em;
+}
+
+
+.port{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.port h1{
+ color:#0000FF;
+ margin: 1em;
+}
+
+
 .about{
  margin: 4em 0;
  padding: 1em;
  position: relative;
 }
 .about h1{
- color:#6A5ACD;
+ color:#0000FF;
  margin: 1em;
 }
 .about img{
- height: 100%;
-    width: 100%;
-    border-radius: 50%
+  height: 100%;
+  width: 100%;
+  border-radius: 50%
 }
 .about span{
  display: block;
@@ -136,8 +153,9 @@ body{
  padding: 1em;
  position: relative; 
 }
-..form h1{
- color:#F97300 ;
+.form h1{
+ color:#0000FF;
+ margin: 1em;
 }
 .form p{
  color:#666;
