@@ -92,6 +92,14 @@ body{
   background-image: url('../images/mail.svg');
   padding: 2.5em;
 }
+.contact .whatsapp-btn{
+  background-image: url('../images/whatsapp.svg');
+  padding: 2.5em;
+}
+.contact .telegram-btn{
+  background-image: url('../images/telegram.svg');
+  padding: 2.5em;
+}
 .contact .list-btn{
   background-image: url('../images/list.svg');
   padding: 2.5em;
