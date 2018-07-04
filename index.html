@@ -68,6 +68,7 @@
               </div>
               <div>
                 <a title="Phone" href="tel:+1234567890"><button class="phone-btn" ></button></a>
+                <a title="WhatsApp" href="whatsapp://send?phone=+120345678910"><button class="whatsapp-btn" ></button></a>
               </div>
             </div>
           </div>
@@ -82,7 +83,6 @@
               </div>
               <div class="">
                 <a title="Email"href="mailto:1234567890@mail.ru"><button class="mail-btn" ></button></a>
-                <a title="WhatsApp" href="whatsapp://send?phone=+120345678910"><button class="whatsapp-btn" ></button></a>
                 <a title="Telegram" href="tg://resolve?domain=nikname"><button class="telegram-btn" ></button></a>
               </div>
             </div>
@@ -167,24 +167,24 @@
     
     
     <!-- Form -->
-    <div class="form" id="form">
+    <div class="form" id="form" action=" form.php" method="POST" name=" form ">
       <div class="container">
         <h1 class="text-center">Заказать уборку</h1>
         <form>
           <div class="form-group">
             <label for="validationCustom01">Введите ваше имя</label>
-            <input type="text" class="form-control" id="validationCustom01" placeholder="Имя" value="" required>
+            <input name="name" type="text" class="form-control" id="validationCustom01" placeholder="Имя" value="" required>
           <div class="form-group">
             <label for="example-tel-input" class="col-xs-2 col-form-label">Введите ваш телефон</label>
-            <input class="form-control" type="tel" value="" id="example-tel-input" placeholder="Телефон">
+            <input name="tel" class="form-control" type="tel" value="" id="example-tel-input" placeholder="Телефон">
           </div>
           <div class="form-group">
             <label for="exampleInputEmail1">Введите ваш емейл</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect1">Выберите количество комнат</label>
-            <select class="form-control" id="exampleFormControlSelect1">
+            <select name="room" class="form-control" id="exampleFormControlSelect1">
               <option>1</option>
               <option>2</option>
               <option>3</option>
@@ -192,11 +192,11 @@
             </select>
           </div>
           <div class="form-group custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="customCheck1">
+            <input name="podd" type="checkbox" class="custom-control-input" id="customCheck1">
             <label class="custom-control-label" for="customCheck1">Поддерживающая уборка</label>
           </div>
           <div class="form-group custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="customCheck2">
+            <input name="posr" type="checkbox" class="custom-control-input" id="customCheck2">
             <label class="custom-control-label" for="customCheck2">Уборка после ремонта</label>
           </div>
           <div class="form-group">
