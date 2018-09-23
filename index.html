@@ -167,35 +167,10 @@
     <div class="form" id="form">
       <div class="container">
         <h1 class="text-center">Заказать уборку</h1>
-        <form id="application" action=" formmail.php" method="POST" name=" formmail ">
-          <div class="form-group">
-            <label for="validationCustom01">Введите ваше имя</label>
-            <input name="name" type="text" class="form-control" id="validationCustom01" maxlength="30" placeholder="Имя"  required>
-            <label for="example-tel-input" class="col-xs-2 col-form-label">Введите ваш телефон</label>
-            <input name="tel" class="form-control" type="tel"  id="example-tel-input" maxlength="30" placeholder="Телефон">
-            <label for="exampleInputEmail1">Введите ваш емейл</label>
-            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" maxlength="30" placeholder="E-mail">
-            <label for="exampleFormControlSelect1" maxlength="20">Выберите количество комнат</label>
-            <select name="room" class="form-control" id="exampleFormControlSelect1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-            </select>
-          <div class="form-group custom-control custom-checkbox">
-            <input name="podd" type="checkbox" class="custom-control-input" id="customCheck1">
-            <label class="custom-control-label" for="customCheck1">Поддерживающая уборка</label>
-            <input name="posr" type="checkbox" class="custom-control-input" id="customCheck2">
-            <label class="custom-control-label" for="customCheck2">Уборка после ремонта</label>
-          </div>
-            <label for="exampleFormControlTextarea1">Ваш коментарий</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-            <small  class="form-text text-muted">Мы никогда не будем делиться Вашей электронной почтой и телефоном с кем-либо еще.</small>
-          </div>
-          <div>
-            <button type="submit" class="btn btn-primary">Отправить заявку</button>
-          </div>
-        </form>
+        <div class="text-center">
+         <iframe src="https://connect.yandex.ru/forms/5ba26ccc83ac4b0283e9b400/?iframe=1" frameborder="0" name="ya-form-5ba26ccc83ac4b0283e9b400" width="650"></iframe>
+        </div>
+        
       </div>
     </div>
 
@@ -226,5 +201,6 @@
     <script src='js/bootstrap.js'></script>
     <script src='js/bootstrap.min.js'></script>
     <script src='js/main.js'></script>
+    <script src="https://yastatic.net/q/forms-frontend-biz/_/embed.js"></script>
   </body>
 </html>
